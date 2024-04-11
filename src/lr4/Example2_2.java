@@ -36,7 +36,7 @@ public class Example2_2 {
         
         // Создание матрицы
         int[][] matrix = new int[rows][cols];
-        System.out.println("Введите элементы матрицы:");z
+        System.out.println("Введите элементы матрицы:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 try {
