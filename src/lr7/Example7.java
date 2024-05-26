@@ -23,5 +23,6 @@ public class Example7 {
         }
         System.out.println("Текст успешно записан в файл.");
         System.out.println("Количество записанных символов: " + textToWrite.length());
+        in.close();
     }
 }
