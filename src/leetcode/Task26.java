@@ -18,7 +18,8 @@ public class Task26 {
     }
     public static void main(String[] args) {
         int[] nums = {1, 1, 2, 3, 4};
-        System.out.println(removeDuplicates(nums));
-        System.out.println(Arrays.toString(nums));
+        System.out.println("Исходный массив: " + Arrays.toString(nums));
+        removeDuplicates(nums);
+        System.out.println("Конечный массив: " + Arrays.toString(nums));
     }
 }

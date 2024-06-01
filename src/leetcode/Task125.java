@@ -27,7 +27,9 @@ public class Task125 {
     }
 
 	public static void main(String[] args) {
-		System.out.println(isPalindrome("uibidfssidfbowqei0u2q0"));
-		System.out.println(isPalindrome("faaf"));
+		String string1 = "uibidfssidfbowqei0u2q0";
+		String string2 = "faaf";
+		System.out.println(string1 + " -> " + isPalindrome(string1));
+		System.out.println(string2 + " -> " + isPalindrome(string2));
 	}
 }

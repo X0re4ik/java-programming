@@ -6,8 +6,10 @@ import java.util.Map;
 // https://leetcode.com/problems/valid-anagram/description/
 
 public class Task242 {
+    
     // 242. Valid Anagram
-    public boolean isAnagram(String s, String t) {
+
+    static public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
         }
@@ -28,5 +30,11 @@ public class Task242 {
         }
 
         return true;        
+    }
+    
+    public static void main(String[] args) {
+        System.out.println("anagram and nagaram -> " + isAnagram("anagram", "nagaram"));
+        System.out.println("ilikejava and sbkjfbsifiu -> " + isAnagram("ilikejava", "sbkjfbsifiu"));
+        System.out.println("aka and aka -> " + isAnagram("aka", "aka"));
     }
 }

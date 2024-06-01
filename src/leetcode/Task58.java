@@ -18,7 +18,12 @@ public class Task58 {
     }
 
     public static void main(String[] args) {
-        System.out.println(lengthOfLastWord(" nsdngof iosjfio   dsopfkpo sd  fsdofkpof s df sdnmfposnp"));
-        System.out.println(lengthOfLastWord(" nsdngof iosjfio   "));
+        String string1 = " nsdngof iosjfio   dsopfkpo sd  fsdofkpof s df sdnmfposnp";
+        String string2 = " nsdngof iosjfio   ";
+
+        System.out.println("Длина последнего слова:");
+        System.out.println(string1 + " -> " + lengthOfLastWord(string1));
+        System.out.println(string2 + " -> " + lengthOfLastWord(string2));
+
     }
 }
