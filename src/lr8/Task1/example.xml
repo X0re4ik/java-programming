@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cars>
+    <car>
+        <name>bsbsijd</name>
+        <price>1000</price>
+    </car>
+    <car>
+        <name>sdfsdf</name>
+        <price>2000</price>
+    </car>
+    <car>
+        <name>dsfsdfsd</name>
+        <price>3000</price>
+    </car>
+    <car>
+        <name>sfsdfsdf</name>
+        <price>4000</price>
+    </car>
+</cars>
